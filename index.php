@@ -2,9 +2,9 @@
 //CONF BDD
 $db="confposte";
 $dbhost="localhost";
-$dbport=3307;
-$dbuser="root";
-$dbpasswd="root";
+$dbport=3306; //3307 en local
+$dbuser="test"; // root en local
+$dbpasswd="";
  
 $pdo = new PDO('mysql:host='.$dbhost.';port='.$dbport.';dbname='.$db.'', $dbuser, $dbpasswd);
 $pdo->exec("SET CHARACTER SET utf8");
