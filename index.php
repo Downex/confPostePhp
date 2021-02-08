@@ -3,8 +3,8 @@
 $db="confposte";
 $dbhost="localhost";
 $dbport=3306; //3307 en local
-$dbuser="root"; // root en local
-$dbpasswd="";
+$dbuser="francois"; // root en local
+$dbpasswd="root";
  
 $pdo = new PDO('mysql:host='.$dbhost.';port='.$dbport.';dbname='.$db.'', $dbuser, $dbpasswd);
 $pdo->exec("SET CHARACTER SET utf8");
