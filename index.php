@@ -2,8 +2,8 @@
 //CONF BDD
 $db="confposte";
 $dbhost="localhost";
-$dbport=3307; //3307 en local
-$dbuser="test"; // root en local
+$dbport=3306; //3307 en local
+$dbuser="root"; // root en local
 $dbpasswd="";
  
 $pdo = new PDO('mysql:host='.$dbhost.';port='.$dbport.';dbname='.$db.'', $dbuser, $dbpasswd);
@@ -16,8 +16,4 @@ $res = $stmt->fetch();
 
 //Hello World
 echo $res[0];
-
-//fermeture de la connexion
-$pdo = null;
-
 ?>
