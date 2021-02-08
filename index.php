@@ -2,7 +2,7 @@
 //CONF BDD
 $db="confposte";
 $dbhost="localhost";
-$dbport=3306; //3307 en local
+$dbport=3307; //3307 en local
 $dbuser="test"; // root en local
 $dbpasswd="";
  
