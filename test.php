@@ -5,7 +5,7 @@ class Test extends TestCase
 {
     public function testSame()
     {
-        $this->assertEquals(15, 10+5);
+        $this->assertEquals(25, 20+5);
     }
 }
 
